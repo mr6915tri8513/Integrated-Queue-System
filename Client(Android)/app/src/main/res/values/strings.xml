@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">整合排隊系統</string>
+
+    <string name="home">首頁</string>
+    <string name="map">地圖</string>
+    <string name="reservation">預約</string>
+    <string name="reserving">當前預約</string>
+    <string name="my_reservation">我的預約</string>
+    <string name="service_type">服務類型</string>
+    <string name="location">位置</string>
+    <string name="cancel">取消</string>
+    <string name="no_internet">您目前為離線狀態，可能無法使用某些功能</string>
+
+    <string name="set_reminder">設定提醒</string>
+    <string name="advance_people">提前人數</string>
+    <string name="number_of_people">人數</string>
+    <string name="apply_reminder_settings">套用設定</string>
+    <string name="channel_name">預約提醒</string>
+    <string name="channel_description">提醒您即將輪到您的號碼的通知</string>
+    <string name="notification_content">您的號碼為 %s，再 %d 位後將輪到您</string>
+
+    <string name="data_required">此項目為必填</string>
+    <string name="please_check_data">請確認資料無誤</string>
+    <string name="please_check_network_state">請檢查網路狀態</string>
+
+    <string name="wait_for_server">正在等待伺服器回應…</string>
+    <string name="unknown_error">未知錯誤：key is null，請再試一次</string>
+    <string name="confirm">確認</string>
+    <string name="reservation_canceled">預約已取消</string>
+    <string name="reservation_timeout">預約已取消：連線逾時</string>
+    <string name="reservation_success">預約成功！號碼：%s</string>
+    <string name="reservation_denied">預約被拒絕</string>
+    <string name="reservation_denied_with_message">預約被拒絕，原因：%s</string>
+
+    <string name="waiting_for_server">等待回應</string>
+    <string name="reservation_record_canceled">預約取消</string>
+    <string name="reservation_record_timeout">連線逾時</string>
+    <string name="reservation_record_key_is_null">未知錯誤</string>
+    <string name="reservation_record_failed">預約失敗</string>
+    <string name="reservation_record_denied">預約被拒</string>
+    <string name="reservation_record_success">預約成功</string>
+
+    <string name="unknown">未知</string>
+    <string name="not_support">停止支援</string>
+    <string name="closed">已打烊</string>
+    <string name="open">營業中</string>
+    <string name="paused">暫停服務</string>
+    <string name="serving">服務中</string>
+
+    <string name="agency_pending">等待人數：%d</string>
+    <string name="agency_distance_meter">%d 公尺</string>
+    <string name="agency_distance_kilometer">%.1f 公里</string>
+    <string name="update_timer">於 %d 秒前更新</string>
+
+    <string name="favorite">我的最愛</string>
+    <string name="hospital">醫院</string>
+    <string name="school">學校</string>
+    <string name="clinic">診所</string>
+    <string name="post_office">郵局</string>
+    <string name="government">政府機關</string>
+    <string name="restaurant">餐廳</string>
+    <string name="store">商店</string>
+    <string name="other">其他機構</string>
+
+    <string name="no_favorite_agency">尚無我的最愛</string>
+    <string name="no_hospital">尚無醫院</string>
+    <string name="no_school">尚無學校</string>
+    <string name="no_clinic">尚無診所</string>
+    <string name="no_post_office">尚無郵局</string>
+    <string name="no_government">尚無政府機關</string>
+    <string name="no_restaurant">尚無餐廳</string>
+    <string name="no_store">尚無商店</string>
+    <string name="no_other">尚無其他機構</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="agency_name_default">未知機構</string>
+    <string name="agency_type_default">未知</string>
+    <string name="agency_status_default">未知</string>
+    <string name="agency_pending_default">等待人數：未知</string>
+    <string name="agency_distance_default">未知</string>
+    <string name="no_agency_default">尚無機構</string>
+    <string name="update_timer_default">於 0 秒前更新</string>
+    <string name="reservation_data_default">姓名</string>
+    <string name="service_type_default">未知服務</string>
+    <string name="reservation_state_default">未知狀態</string>
+    <string name="select_item_default">未知選項</string>
+    <string name="reservation_date_time_default">2022/01/01 上午 00:00</string>
+    <string name="reservation_num_default">A000</string>
+    <string name="no_reservation_record">無預約紀錄</string>
+    <string name="choose_agency_first">請先至\n首頁 或 地圖\n選擇機構</string>
+
+</resources>

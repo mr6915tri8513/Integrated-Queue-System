@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/android studio project/IntegratedQueueSystem/app/src/main/res/drawable/ic_round_star_48.xml" value="0.23981481481481481" />
+        <entry key="..\:/android studio project/IntegratedQueueSystem/app/src/main/res/drawable/ic_round_star_border_48.xml" value="0.23981481481481481" />
+        <entry key="..\:/android studio project/IntegratedQueueSystem/app/src/main/res/drawable/top_shadow_gradient.xml" value="0.23981481481481481" />
+        <entry key="..\:/android studio project/IntegratedQueueSystem/app/src/main/res/layout-v26/fragment_reserving_page.xml" value="0.25364583333333335" />
+        <entry key="..\:/android studio project/IntegratedQueueSystem/app/src/main/res/layout/activity_main.xml" value="0.22546296296296298" />
+        <entry key="..\:/android studio project/IntegratedQueueSystem/app/src/main/res/layout/agency_row.xml" value="0.4664179104477612" />
+        <entry key="..\:/android studio project/IntegratedQueueSystem/app/src/main/res/layout/dropdown_item.xml" value="0.22546296296296298" />
+        <entry key="..\:/android studio project/IntegratedQueueSystem/app/src/main/res/layout/fragment_agency.xml" value="0.2819918934568616" />
+        <entry key="..\:/android studio project/IntegratedQueueSystem/app/src/main/res/layout/fragment_favorite_agency.xml" value="0.22546296296296298" />
+        <entry key="..\:/android studio project/IntegratedQueueSystem/app/src/main/res/layout/fragment_home_page.xml" value="0.25364583333333335" />
+        <entry key="..\:/android studio project/IntegratedQueueSystem/app/src/main/res/layout/fragment_map_page.xml" value="0.22546296296296298" />
+        <entry key="..\:/android studio project/IntegratedQueueSystem/app/src/main/res/layout/fragment_reservation_detail.xml" value="0.536" />
+        <entry key="..\:/android studio project/IntegratedQueueSystem/app/src/main/res/layout/fragment_reservation_page.xml" value="0.22546296296296298" />
+        <entry key="..\:/android studio project/IntegratedQueueSystem/app/src/main/res/layout/fragment_reservation_record_page.xml" value="0.22546296296296298" />
+        <entry key="..\:/android studio project/IntegratedQueueSystem/app/src/main/res/layout/fragment_reserving_page.xml" value="0.22546296296296298" />
+        <entry key="..\:/android studio project/IntegratedQueueSystem/app/src/main/res/layout/reservation_data_multi_selection_item_row.xml" value="0.22546296296296298" />
+        <entry key="..\:/android studio project/IntegratedQueueSystem/app/src/main/res/layout/reservation_data_row.xml" value="0.7263681592039801" />
+        <entry key="..\:/android studio project/IntegratedQueueSystem/app/src/main/res/layout/reservation_data_selection_item_row.xml" value="0.22546296296296298" />
+        <entry key="..\:/android studio project/IntegratedQueueSystem/app/src/main/res/layout/reservation_data_selection_row.xml" value="0.15081521739130435" />
+        <entry key="..\:/android studio project/IntegratedQueueSystem/app/src/main/res/layout/reservation_record_row.xml" value="0.4689054726368159" />
+        <entry key="..\:/android studio project/IntegratedQueueSystem/app/src/main/res/layout/top_shadow_gradient.xml" value="0.16168478260869565" />
+        <entry key="..\:/android studio project/IntegratedQueueSystem/app/src/main/res/menu/menu_bottom.xml" value="0.25364583333333335" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "149822720391",
+    "firebase_url": "https://integrated-queue-system-api-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "integrated-queue-system-api",
+    "storage_bucket": "integrated-queue-system-api.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149822720391:android:9aae4001f945d9fca12b22",
+        "android_client_info": {
+          "package_name": "com.example.integratedqueuesystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "149822720391-vdve82lego0q7emrkntu0e2hjcjb1l72.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwzTL6TbEF2AF-SV5QHkIRV8KninkcBfI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "149822720391-vdve82lego0q7emrkntu0e2hjcjb1l72.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

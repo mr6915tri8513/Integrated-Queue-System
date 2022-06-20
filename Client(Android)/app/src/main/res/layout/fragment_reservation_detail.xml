@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    tools:context=".ReservationDetailDialogFragment">
+
+    <TextView
+        android:id="@+id/agency_name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/agency_name_default"
+        android:textSize="30sp"
+        android:textColor="@color/text_color"
+        android:autoSizeMaxTextSize="30sp"
+        android:autoSizeMinTextSize="14sp"
+        android:autoSizeTextType="uniform"
+        android:maxLines="2"
+        android:ellipsize="middle"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/service_type_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/service_type_default"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:maxLines="1"
+        android:ellipsize="marquee"
+        app:layout_constraintTop_toBottomOf="@id/agency_name_tv"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/reservation_num_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reservation_num_default"
+        android:textSize="50sp"
+        android:textColor="@color/text_color"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/service_type_tv"/>
+
+    <TextView
+        android:id="@+id/date_time_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reservation_date_time_default"
+        android:textSize="20sp"
+        android:layout_marginTop="30sp"
+        android:maxLines="2"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/reservation_num_tv"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <CheckBox
+        android:id="@+id/set_reminder_cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/set_reminder"
+        android:layout_marginTop="10dp"
+        android:enabled="false"
+        android:checked="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/date_time_tv"
+        app:layout_constraintBottom_toBottomOf="@id/advance_people_dm"
+        app:layout_constraintEnd_toStartOf="@id/advance_people_dm"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/advance_people_dm"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:enabled="false"
+        app:layout_constraintStart_toEndOf="@id/set_reminder_cb"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/date_time_tv">
+
+        <AutoCompleteTextView
+            android:id="@+id/advance_people_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/advance_people"
+            android:inputType="none"
+            android:text="@string/number_of_people"
+            android:enabled="false"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

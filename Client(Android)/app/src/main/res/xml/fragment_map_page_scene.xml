@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        app:constraintSetStart="@+id/hide"
+        app:constraintSetEnd="@+id/show"
+        app:duration="300">
+        <OnSwipe app:touchAnchorId="@+id/info_cv"
+            app:maxAcceleration="25"
+            app:maxVelocity="25"/>
+    </Transition>
+
+    <ConstraintSet android:id="@+id/hide" >
+        <Constraint
+            android:id="@+id/info_cv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-10dp"
+            app:layout_constraintTop_toBottomOf="parent"/>
+        <Constraint
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toTopOf="@id/info_cv"
+            app:layout_constraintTop_toTopOf="parent" />
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/show">
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/full">
+        <Constraint
+            android:id="@+id/info_cv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="-10dp"
+            android:layout_marginBottom="-10dp"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintBottom_toBottomOf="parent" />
+        <Constraint
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="-10dp"
+            app:layout_constraintTop_toTopOf="parent"/>
+    </ConstraintSet>
+
+</MotionScene>
