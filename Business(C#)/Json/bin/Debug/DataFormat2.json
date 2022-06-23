@@ -1,0 +1,37 @@
+[
+  {
+    "ServiceTypeName": "ServiceTypeA",
+    "DataFormat": [
+      {
+        "DataName": "\u59D3\u540D",
+        "DataType": 1,
+        "dataSelectItems": null
+      },
+      {
+        "DataName": "\u5E74\u9F61",
+        "DataType": 2,
+        "dataSelectItems": null
+      },
+      {
+        "DataName": "\u96FB\u8A71",
+        "DataType": 5,
+        "dataSelectItems": null
+      }
+    ]
+  },
+  {
+    "ServiceTypeName": "ServiceTypeB",
+    "DataFormat": [
+      {
+        "DataName": "\u59D3\u540D",
+        "DataType": 1,
+        "dataSelectItems": null
+      },
+      {
+        "DataName": "\u96FB\u8A71",
+        "DataType": 5,
+        "dataSelectItems": null
+      }
+    ]
+  }
+]

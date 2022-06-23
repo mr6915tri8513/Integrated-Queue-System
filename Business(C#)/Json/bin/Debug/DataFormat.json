@@ -1,0 +1,149 @@
+[
+  {
+    "serviceTypeName": "ServiceTypeA",
+    "dataFormats": [
+      {
+        "dataName": "\u59D3\u540D",
+        "dataType": 3,
+        "dataSelectItems": [],
+        "dataRequired": true
+      },
+      {
+        "dataName": "\u5E74\u9F61",
+        "dataType": 4,
+        "dataSelectItems": [],
+        "dataRequired": true
+      },
+      {
+        "dataName": "\u96FB\u8A71",
+        "dataType": 7,
+        "dataSelectItems": [],
+        "dataRequired": true
+      }
+    ]
+  },
+  {
+    "serviceTypeName": "ServiceTypeB",
+    "dataFormats": [
+      {
+        "dataName": "\u59D3\u540D",
+        "dataType": 3,
+        "dataSelectItems": [],
+        "dataRequired": false
+      },
+      {
+        "dataName": "\u96FB\u8A71",
+        "dataType": 7,
+        "dataSelectItems": [],
+        "dataRequired": false
+      }
+    ]
+  },
+  {
+    "serviceTypeName": "\u5496\u54E9\u98EF",
+    "dataFormats": [
+      {
+        "dataName": "\u6578\u91CF",
+        "dataType": 4,
+        "dataSelectItems": [],
+        "dataRequired": true
+      },
+      {
+        "dataName": "\u96FB\u8A71",
+        "dataType": 7,
+        "dataSelectItems": [],
+        "dataRequired": true
+      },
+      {
+        "dataName": "\u52A0\u8FA3",
+        "dataType": 1,
+        "dataSelectItems": [
+          "\u8981",
+          "\u4E0D\u8981"
+        ],
+        "dataRequired": true
+      },
+      {
+        "dataName": "\u52A0\u9EDE\u98F2\u6599",
+        "dataType": 2,
+        "dataSelectItems": [
+          "\u7D05\u8336",
+          "\u7DA0\u8336",
+          "\u53EF\u6A02",
+          "QQ\u310B\u311F\u310B\u311F\u597D\u559D\u5230\u54A9\u5657\u8336"
+        ],
+        "dataRequired": false
+      }
+    ]
+  },
+  {
+    "serviceTypeName": "\u8A3A\u6240",
+    "dataFormats": [
+      {
+        "dataName": "\u639B\u865F\u59D3\u540D",
+        "dataType": 3,
+        "dataSelectItems": [],
+        "dataRequired": true
+      },
+      {
+        "dataName": "\u5065\u4FDD\u5361\u865F",
+        "dataType": 4,
+        "dataSelectItems": [],
+        "dataRequired": true
+      },
+      {
+        "dataName": "\u639B\u865F\u985E\u578B",
+        "dataType": 2,
+        "dataSelectItems": [
+          "\u8033\u9F3B\u5589\u79D1",
+          "\u5167\u79D1",
+          "\u5916\u79D1",
+          "\u6CCC\u5C3F\u79D1"
+        ],
+        "dataRequired": true
+      },
+      {
+        "dataName": "\u639B\u865F\u91AB\u5E2B",
+        "dataType": 1,
+        "dataSelectItems": [
+          "\u738B\u5927\u660E\u91AB\u5E2B",
+          "\u738B\u5C0F\u660E\u91AB\u5E2B",
+          "abc\u91AB\u5E2B"
+        ],
+        "dataRequired": true
+      }
+    ]
+  },
+  {
+    "serviceTypeName": "\u5716\u66F8\u9928\u501F\u9084\u66F8",
+    "dataFormats": [
+      {
+        "dataName": "\u66F8\u7C4D\u540D\u7A31",
+        "dataType": 5,
+        "dataSelectItems": [],
+        "dataRequired": true
+      },
+      {
+        "dataName": "\u66F8\u7C4DISBN",
+        "dataType": 5,
+        "dataSelectItems": [],
+        "dataRequired": true
+      },
+      {
+        "dataName": "\u501F\u9084\u66F8",
+        "dataType": 1,
+        "dataSelectItems": [
+          "\u501F\u66F8",
+          "\u9084\u66F8"
+        ],
+        "dataRequired": true
+      },
+      {
+        "dataName": "\u907A\u5931",
+        "dataType": 5,
+        "dataSelectItems": [],
+        "dataRequired": false
+      }
+    ]
+  }
+]
